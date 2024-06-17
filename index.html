@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type="text/css" href="./assets/style.css" > 
+    <link href="https://db.onlinewebfonts.com/c/db43803fb4a7ccad71c4b2c69d32922f?family=HelveticaNeue-CondensedBlack" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/0e6de1ec911a2e267ff136bbdd384a44?family=Helvetica+Neue+Light" rel="stylesheet">
+    <title>Anson Portfolio - Dev Mod</title>
+</head>
+
+<body>
+     <!-- header navigation bar -->
+    <header>
+        <div class="top-banner">
+            <div class="banner-content">
+                <p>Note: For dev projects only</p>
+                <a href="https://www.ansonldoublee.com/">
+                <button id="report-button">View All</button></a>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li><a href="index.html#work-anchorpoint">Projects</a></li>
+                <li><a href="index.html#contact-anchorpoint">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero">
+        <section class="welcome-card-main">
+            <section class="welcome-card-header">
+                <img src="assets/images/colored-buttons.svg"></img>
+                <img src="assets/images/close-button.svg"></img>
+            </section>  
+            <section class="welcome-content">
+                <!-- animation 300px desktop version  -->
+
+                <section class=welcome-left>
+                    <div id="welcome-lottie-300">
+                        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+                        <div id="lottie-div-300">
+                        <dotlottie-player src="https://lottie.host/c9d26e31-9a9d-4980-a1fc-73235d38c9e7/DXH8TcaA0f.json" background="transparent" speed="1" style="width: 300px; height: 300px" direction="1" playMode="normal" loop autoplay>
+                        </dotlottie-player>
+                    </div>
+                    <!-- animation 200px mobile version  -->
+                    <div id="welcome-lottie-200">
+                        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+                        <div id="lottie-div-200">
+                        <dotlottie-player src="https://lottie.host/c9d26e31-9a9d-4980-a1fc-73235d38c9e7/DXH8TcaA0f.json" background="transparent" speed="1" style="width: 200px; height: 200px" direction="1" playMode="normal" loop autoplay>
+                        </dotlottie-player>
+                    </div>
+                </section>
+
+                <div id="welcome-right">
+                    <div id="welcome-text">
+                        <h1 id="welcome-text-1">Hi! I'm Anson Lee,</h1>
+                        <h4 class="welcome-subheading">I'm a UX/UI Designer and Developer based in Australia</h4>
+                        <p>Welcome! Feel free to explore and learn more about my work</p>
+                    </div>
+                    <div class="welcome-buttons">
+                        <a href="index.html#work-anchorpoint">
+                        <button id="primary-button-cartoon" type="button">Explore Projects</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="hero-background">
+            <img src="./assets/images/hero.svg" id="background-graphics"></img>
+        </section>
+
+    </section>
+
+    <!-- what i do section -->
+    <section class="what-i-do">
+        <div class="arrow"> <img src="assets/images/arrow-dark.svg"></img></div>
+        <div class="wid-heading">
+         <h2>What I do</h2>
+           <h3>I'm an end-to-end designer and developer. Here's a breakdown of some of the things I can create.</h3>
+        </div>
+        <!-- what i do cards >> PLEASE ADD TEXT HERE -->
+        <div class="wid-card-section">
+            
+            <article class="what-i-do-card">
+                <section class="card-img-orange">
+                    <img src="assets/images/wid-branding-image.png" class="wid-card-img"></img>
+                </section>
+                
+                <section class="card-description">
+                    <div class="wid-card-img-title">
+                    <img src="assets/images/branding-icon.svg"></img>
+                    <h3 class="wid-card-title">Branding</h3>
+                    </div>
+                    <p class="wid-description-text">I create unique and memorable brand identities, from initial concepts and logos to complete rebranding projects. Yes, I created the animated avatar throughout this site!</p>
+                </section>
+            </article>
+            <article class="what-i-do-card">
+                <section class="card-img-blue">
+                    <img src="assets/images/wid-design-image.png" class="wid-card-img"></img>
+                </section>
+                
+                <section class="card-description">
+                    <div class="wid-card-img-title">
+                    <img src="assets/images/design-icon.svg"></img>
+                    <h3 class="wid-card-title">Design</h3>
+                    </div>
+                    <p class="wid-description-text">Focusing on UX/UI, I design responsive web and mobile with tools such as Figma and Miro. My human-centered approach prioritises research and prototyping for intuitive, mobile-friendly designs.</p>
+                </section>
+            </article>
+
+            <article class="what-i-do-card">
+                <section class="card-img-purple">
+                    <img src="assets/images/wid-development-image.png" class="wid-card-img"></img>
+                </section>
+                
+                <section class="card-description">
+                    <div class="wid-card-img-title">
+                    <img src="assets/images/development-icon.svg"></img>
+                    <h3 class="wid-card-title">Development</h3>
+                    </div>
+                    <p class="wid-description-text">I can also bring website designs to life with HTML, CSS, and JavaScript. From concept to execution.</p>
+                </section>
+            </article>
+        </div>
+    </section>
+
+    <section class="more-work-container">  
+        <section class="more-work-header" id="work-anchorpoint">
+            <div class="more-work-heading">
+            <h2>Explore Projects</h2>
+            <h3>Here's some more of my work.</h3> 
+            </div>
+        </section>
+
+        <!-- Project cards -->
+        <div class="project-section">
+            <article class="project-card" id="project-1">
+                <section class="project-card-img">
+                    <a href="#">
+                        <img src="https://placehold.co/600x300" id="aiwriter-img" alt="AI-Writer">
+                    </a>
+                </section>
+                <section class="card-description">
+                    <h3>Project name</h3>
+                    <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                </section>
+            </article>
+
+            <article class="project-card" id="project-2">
+                <section class="project-card-img">
+                    <a href="#">
+                        <img src="https://placehold.co/300x300" id="aiwriter-img" alt="AI-Writer">
+                    </a>
+                </section>
+                <section class="card-description">
+                    <h3>Project name</h3>
+                    <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                </section>
+            </article>
+
+            <article class="project-card" id="project-3">
+                <section class="project-card-img">
+                    <a href="#">
+                        <img src="https://placehold.co/300x300" id="aiwriter-img" alt="AI-Writer">
+                    </a>
+                </section>
+                <section class="card-description">
+                    <h3>Project name</h3>
+                    <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                </section>
+            </article>
+
+            <article class="project-card" id="project-4">
+                <section class="project-card-img">
+                    <a href="#">
+                        <img src="https://placehold.co/300x300" id="aiwriter-img" alt="AI-Writer">
+                    </a>
+                </section>
+                <section class="card-description">
+                    <h3>Project name</h3>
+                    <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                </section>
+            </article>
+
+            <article class="project-card" id="project-5">
+                <section class="project-card-img">
+                    <a href="#">
+                        <img src="https://placehold.co/300x300" id="aiwriter-img" alt="AI-Writer">
+                    </a>
+                </section>
+                <section class="card-description">
+                    <h3>Project name</h3>
+                    <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+                </section>
+            </article>
+            
+        </div>
+    </section>
+
+    <!-- This is the contact me section -->
+    <section class="contact-me" id="contact-anchorpoint">
+        <section class="contact-me-container">
+            <h1> Contact me</h1>
+            <h3> Have any questions or inquiries?</h3>
+            <h4>Add me on LinkedIn or email me at <a href="mailto:ansonldoublee@gmail.com" id="email-link">ansonldoublee@gmail.com</a></h4>
+            <a href="https://www.linkedin.com/in/ansonldoublee/" target="_blank"><button class="contact-button">LinkedIn</button></a>
+                <section class="lottie-bye">
+                    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script><dotlottie-player src="https://lottie.host/fc6cfa5b-bbec-4ea2-9fb0-9880e781fccc/gAA0iH0kph.json" background="transparent" speed="1" style="width: 30236; height: 168" direction="1" playMode="bounce" loop autoplay></dotlottie-player>
+        </section>
+    </section>
+
+    </section>
+</body>
+
+<footer>Thanks for visiting! ☺</footer>
+</html>
