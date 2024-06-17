@@ -184,6 +184,7 @@ nav ul li a:hover {
     padding: 0 0 16px 0;
 }
 
+/* Avatar animation in hero - smaller file hidden on larger screens */
 #lottie-div-200 {
     display:none;
 }
@@ -242,6 +243,7 @@ nav ul li a:hover {
     margin: 16px 16px 16px 16px
 }
 
+/* background image goes here */
 .hero-background {
     position: absolute;
     z-index: 3;
@@ -250,7 +252,6 @@ nav ul li a:hover {
     animation: pulse 8s;
 }
 
- /* commented out this animation FOR NOW */
 @keyframes pulse {
     0% { transform: scale(0.5); }
     50% { transform: scale(1.05); }
@@ -386,6 +387,7 @@ nav ul li a:hover {
     background-color: white;
 }
 
+/* Additional styling here to make first project wider - due to accesptance criteria  */
 #project-1 {
     max-width: 640px;
 }
