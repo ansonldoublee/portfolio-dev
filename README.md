@@ -1,6 +1,6 @@
 # Portfolio-Dev
 ## Notes
-Portfolio website for Module 2 Challenge (dev projects only). I ended up building another portfolio for my design projects which you can view here https://www.ansonldoublee.com
+Portfolio website for Module 2 Challenge (dev projects only).
 
 ## Links
 Website URL: https://ansonldoublee.github.io/portfolio-dev/
