@@ -537,6 +537,10 @@ nav ul li a:hover {
     max-width: 640px;
 }
 
+#project-1-mobile {
+    display:none;
+}
+
 .project-card .card-description {
     display: block;
     text-align: center;
@@ -565,28 +569,8 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-#aiwriter-img:hover {
+#placeholder-img:hover, #project-1-img:hover {
     transform: rotate(-1.5deg) scale(1.03);
-}
-
-#cmsignup-img:hover  {
-    transform: rotate(1deg) scale(1.03);
-}
-
-#zkcancellations-img:hover  {
-    transform: rotate(1.3deg) scale(1.03);
-}
-
-#zkapp-img:hover  {
-    transform: rotate(0.8deg) scale(1.03);
-}
-
-#granddays-img:hover {
-    transform: rotate(-2deg) scale(1.03);
-}
-
-#getup-img:hover  {
-    transform: rotate(-1deg) scale(1.03);
 }
 
 /* conatact me section */
@@ -716,6 +700,14 @@ footer {
     #ai-writer-png, #cm-signup-png, #cancellation-flow-png {
         width: 40vw;
         padding: 16px
+    }
+
+    #project-1 {
+        display:none;
+    }
+
+    #project-1-mobile {
+        display: block;
     }
 
 }
